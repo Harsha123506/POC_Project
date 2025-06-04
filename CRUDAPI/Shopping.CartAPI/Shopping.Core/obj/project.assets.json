@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Shopping.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shopping.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shopping.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shopping.Models/1.0.0": {
+      "type": "project",
+      "path": "../Shopping.Models/Shopping.Models.csproj",
+      "msbuildProject": "../Shopping.Models/Shopping.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Shopping.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dkottur\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Core\\Shopping.Core.csproj",
+      "projectName": "Shopping.Core",
+      "projectPath": "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Core\\Shopping.Core.csproj",
+      "packagesPath": "C:\\Users\\dkottur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\dkottur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj": {
+              "projectPath": "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
