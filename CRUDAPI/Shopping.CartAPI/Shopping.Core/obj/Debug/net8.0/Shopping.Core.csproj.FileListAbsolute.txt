@@ -1,0 +1,16 @@
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\bin\Debug\net8.0\Shopping.Core.deps.json
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\bin\Debug\net8.0\Shopping.Core.dll
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\bin\Debug\net8.0\Shopping.Core.pdb
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\bin\Debug\net8.0\Shopping.Models.dll
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\bin\Debug\net8.0\Shopping.Models.pdb
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.csproj.AssemblyReference.cache
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.AssemblyInfoInputs.cache
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.AssemblyInfo.cs
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.csproj.CoreCompileInputs.cache
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.sourcelink.json
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.B5BF9342.Up2Date
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.dll
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\refint\Shopping.Core.dll
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\Shopping.Core.pdb
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Core\obj\Debug\net8.0\ref\Shopping.Core.dll

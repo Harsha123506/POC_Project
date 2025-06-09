@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj": {}
+    "D:\\POC\\POC_API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj": {
+    "D:\\POC\\POC_API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj",
+        "projectUniqueName": "D:\\POC\\POC_API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj",
         "projectName": "Shopping.Models",
-        "projectPath": "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj",
-        "packagesPath": "C:\\Users\\dkottur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dkottur\\OneDrive\\POC-API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\obj\\",
+        "projectPath": "D:\\POC\\POC_API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\Shopping.Models.csproj",
+        "packagesPath": "C:\\Users\\hyerraguntla\\.nuget\\packages\\",
+        "outputPath": "D:\\POC\\POC_API\\CRUDAPI\\Shopping.CartAPI\\Shopping.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dkottur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hyerraguntla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

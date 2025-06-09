@@ -1,0 +1,13 @@
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\bin\Debug\net8.0\Shopping.Models.deps.json
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\bin\Debug\net8.0\Shopping.Models.dll
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\bin\Debug\net8.0\Shopping.Models.pdb
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.csproj.AssemblyReference.cache
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.AssemblyInfoInputs.cache
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.AssemblyInfo.cs
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.csproj.CoreCompileInputs.cache
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.sourcelink.json
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.dll
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\refint\Shopping.Models.dll
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\Shopping.Models.pdb
+D:\POC\POC_API\CRUDAPI\Shopping.CartAPI\Shopping.Models\obj\Debug\net8.0\ref\Shopping.Models.dll
