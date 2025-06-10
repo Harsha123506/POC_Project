@@ -1,5 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,7 @@ namespace Shopping.CartAPI.Controllers
             _JwtService = JwtService;
         }
 
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<ActionResult<string>> ValidateLogin([FromBody]LoginDTO login)
         { 
@@ -58,6 +60,10 @@ namespace Shopping.CartAPI.Controllers
             if (user == null)
             {
                 return BadRequest("Invalid UserDetails");
+            }
+            var matchedUser = await _dataContext.UserDetails.FirstOrDefaultAsync(x => x.Name == user.Name);
+            if (matchedUser != null) {
+                return BadRequest("Duplicate entry");
             }
             var userDetails = new UserDetails
             {

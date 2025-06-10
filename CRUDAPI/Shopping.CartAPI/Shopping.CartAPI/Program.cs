@@ -21,6 +21,12 @@ builder.Services.AddDbContext<DataContext>(opt =>
 {
     opt.UseSqlite("Data Source=shopping.db");
 });
+builder.Services.AddCors(opt => opt.AddPolicy("CORSPolicy",policy =>
+{
+    policy.WithOrigins("http://localhost:4200")
+    .AllowAnyHeader()
+    .AllowAnyMethod();
+}));
 builder.Services.AddAuthentication().AddJwtBearer(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
@@ -45,6 +51,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("CORSPolicy");
 
 app.UseAuthorization();
 
