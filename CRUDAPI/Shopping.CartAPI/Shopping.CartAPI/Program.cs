@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Shopping.CartAPI.DataLayer;
 using Shopping.Core.Services;
+using Shopping.CartAPI.Repositories;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,7 @@ var secretKey = jwtSettings["JwtKey"];
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<JwtTokenGeneratorService>();
+builder.Services.AddSingleton<IuserRepositpory, SQLuserRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
