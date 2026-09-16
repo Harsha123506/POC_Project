@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Name": "Wireless Ergonomic Mouse",
+    "Price": 49.99,
+    "Stock": 120,
+    "category": "Electronics",
+    "subCategory": "Computer Accessories"
+  },
+  {
+    "Id": 2,
+    "Name": "Mechanical Gaming Keyboard",
+    "Price": 89.95,
+    "Stock": 75,
+    "category": "Electronics",
+    "subCategory": "Computer Accessories"
+  },
+  {
+    "Id": 3,
+    "Name": "Stainless Steel Water Bottle",
+    "Price": 24.00,
+    "Stock": 310,
+    "category": "Home & Kitchen",
+    "subCategory": "Hydration"
+  },
+  {
+    "Id": 4,
+    "Name": "Organic Espresso Beans 1kg",
+    "Price": 29.99,
+    "Stock": 45,
+    "category": "Grocery",
+    "subCategory": "Coffee"
+  },
+  {
+    "Id": 5,
+    "Name": "Running Shoes - Size 10",
+    "Price": 119.99,
+    "Stock": 0,
+    "category": "Apparel",
+    "subCategory": "Footwear"
+  },
+  {
+    "Id": 6,
+    "Name": "Yoga Mat Extra Thick",
+    "Price": 35.50,
+    "Stock": 150,
+    "category": "Fitness",
+    "subCategory": "Gear"
+  },
+  {
+    "Id": 7,
+    "Name": "Noise Cancelling Headphones",
+    "Price": 299.00,
+    "Stock": 18,
+    "category": "Electronics",
+    "subCategory": "Audio"
+  },
+  {
+    "Id": 8,
+    "Name": "Generic LED Bulb",
+    "Price": 4.99,
+    "Stock": 500,
+    "category": "Home Improvement",
+    "subCategory": null
+  },
+  {
+    "Id": 9,
+    "Name": null,
+    "Price": 15.00,
+    "Stock": 60,
+    "category": "Miscellaneous",
+    "subCategory": null
+  },
+  {
+    "Id": 10,
+    "Name": "Desk Plant (Succulent)",
+    "Price": 12.75,
+    "Stock": 85,
+    "category": "Decor",
+    "subCategory": "Indoor Plants"
+  }
+]
