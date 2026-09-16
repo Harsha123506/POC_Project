@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Shopping.Models.DTO;
+using Shopping.Models.Entities;
 
 namespace Shopping.CartAPI.Repositories
 {

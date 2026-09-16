@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using Shopping.CartAPI.DataLayer;
 using Shopping.Core.Services;
 using Shopping.Models.DTO;
+using Shopping.Models.Entities;
 
 namespace Shopping.CartAPI.Controllers
 {
@@ -69,7 +70,7 @@ namespace Shopping.CartAPI.Controllers
             {
                 Name = user.Name,
                 Email = user.Email,
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(user.Password)),
+                PasswordHash = !string.IsNullOrEmpty(user.Password) ? hmac.ComputeHash(Encoding.UTF8.GetBytes(user.Password)) : null,
                 PasswordSalt = hmac.Key,
                 PhoneNumber = user.PhoneNumber,
                 isAdmin = false,

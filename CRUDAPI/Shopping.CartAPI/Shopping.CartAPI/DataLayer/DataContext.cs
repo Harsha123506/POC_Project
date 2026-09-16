@@ -1,6 +1,6 @@
 ﻿using System.Security.Permissions;
 using Microsoft.EntityFrameworkCore;
-using Shopping.Models.DTO;
+using Shopping.Models.Entities;
 
 namespace Shopping.CartAPI.DataLayer
 {
@@ -12,5 +12,6 @@ namespace Shopping.CartAPI.DataLayer
         }
         public DbSet<UserDetails> UserDetails { get; set; }
         //public DbSet<UserLoginDetails> UserLoginDetails { get; set; }
+        public DbSet<Products> Products { get; set; }
     }
 }

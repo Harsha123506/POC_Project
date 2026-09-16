@@ -16,6 +16,7 @@ var secretKey = jwtSettings["JwtKey"];
 builder.Services.AddControllers();
 builder.Services.AddScoped<JwtTokenGeneratorService>();
 builder.Services.AddScoped<IuserRepositpory, SQLuserRepository>();
+builder.Services.AddScoped<IproductRepository, ProductRepository>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -59,5 +60,19 @@ app.UseCors("CORSPolicy");
 app.UseAuthorization();
 
 app.MapControllers();
+
+try
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dataContext = scope.ServiceProvider.GetRequiredService<DataContext>();
+        await dataContext.Database.MigrateAsync();
+        await ItemdataSeedContext.SeedData(dataContext);
+    }
+}catch (Exception ex)
+{
+    var logger = app.Services.GetRequiredService<ILogger<Program>>();
+    logger.LogError(ex, "An error occurred while seeding the database.");
+}
 
 app.Run();

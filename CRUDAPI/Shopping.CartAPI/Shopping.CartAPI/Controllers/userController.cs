@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shopping.Models.DTO;
 using Shopping.CartAPI.Repositories;
 using Microsoft.AspNetCore.Authorization;
+using Shopping.Models.Entities;
 
 namespace Shopping.CartAPI.Controllers
 {
@@ -20,7 +21,7 @@ namespace Shopping.CartAPI.Controllers
         [HttpGet("GetUserById")]
         public async Task<ActionResult<UserDetails>> getUserById(int id)
         {
-            var userMatched = _userRepository.getUserById(id);
+            var userMatched = await _userRepository.getUserById(id);
             if (userMatched == null) return NotFound("No User Found");
             return Ok(userMatched);
         }

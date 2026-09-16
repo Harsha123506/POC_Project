@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Shopping.CartAPI;
 using Shopping.CartAPI.DataLayer;
 using Shopping.Models.DTO;
+using Shopping.Models.Entities;
 
 namespace Shopping.CartAPI.Repositories
 {
